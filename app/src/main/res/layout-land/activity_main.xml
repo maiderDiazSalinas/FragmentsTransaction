@@ -26,6 +26,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/main_fragmentos"/>
 
-    <!--android:name="com.example.myapplication.SecondFragment"-->
-
 </androidx.constraintlayout.widget.ConstraintLayout>

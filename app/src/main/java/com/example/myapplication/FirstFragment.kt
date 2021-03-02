@@ -12,7 +12,6 @@ class FirstFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -30,7 +29,6 @@ class FirstFragment : Fragment() {
 
         view.findViewById<Button>(R.id.first_bSiguiente).setOnClickListener{
             (activity as MainActivity).cambiarASecondFragment()
-            //(activity as MainActivity).navHost.navController.navigate(R.id.action_firstFragment_to_secondFragment)
             //(activity as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.apaisado_frag2, SecondFragment()).addToBackStack(null).commit()
         }
     }

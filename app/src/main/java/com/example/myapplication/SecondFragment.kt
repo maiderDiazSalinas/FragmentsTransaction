@@ -24,11 +24,8 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //(activity as MainActivity).getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
-
         view.findViewById<Button>(R.id.second_bVolver).setOnClickListener{
             (activity as MainActivity).cambiarAFirstFragment()
-            //(activity as MainActivity).navHost.navController.navigate(R.id.action_secondFragment_to_firstFragment)
             //(activity as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.main_fragmentos, FirstFragment()).addToBackStack(null).commit()
         }
     }
